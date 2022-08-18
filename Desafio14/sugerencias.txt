@@ -1,0 +1,2 @@
+Al usar el node --prof para crear el archivo de profile, se crea perfecto. Pero cuando ejecuto el node --prof-process con el nombre del archivo.log para luego que se traduzca en otro, me crea el otro archivo pero no me carga la información, sino que por consola me salta un 'stdout is not a tty' ni idea que es la verdad, entonces lo que hice fue ejecutar el node --prof-process nombreDelArchivo y listo, me lo tira por consola nada mas.
+
