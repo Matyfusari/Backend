@@ -1,0 +1,16 @@
+type Producto {
+    id: ID!
+    nombre: String
+    stock: Int
+    imagen: String
+}
+
+type Query {
+    obtenerProductos: [Producto]
+}
+
+type Mutation {
+    modificarProducto(id: ID, nombre: String, stock: Int, imagen: String): [Producto]
+    agregarProducto(id: ID, nombre: String, stock: Int, imagen: String): [Producto]
+    eliminarProducto(id: ID): [Producto]
+}
